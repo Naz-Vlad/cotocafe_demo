@@ -1,10 +1,21 @@
+import Title, { TitleSize } from "../../ui/title/title";
+import "./style.css";
 
 function About() {
 	return (
-    <div>
-			<h1>ГЛАВНЫЙ ЗАГОЛОВОК</h1>
-			<p>ПАРАГРАФ</p>
-    </div>
+		<section className="about">
+			<div className="about__wrapper">
+				<Title size={TitleSize.BIG}>Первое в России котокафе</Title>
+				<p className="about__text">
+					Крупнейшее котокафе России, в котором живёт 50 кошек и котов, и каждыйиз них ищет новый дом.
+					Животных можно гладить, фотографировать, играть с ними.
+        </p>
+        <p className="about__work-time">Рабочее время с 8:00 до 23:00</p>
+        <p className="about__address">
+          Санкт-Петербург, набережная реки Карповки, дом 5, литера П
+        </p>
+			</div>
+		</section>
 	)
 }
 

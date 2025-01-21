@@ -1,6 +1,5 @@
 .page-wrapper__main {
 	width: 1280px;
 	margin: 0 auto;
-	padding: 50px 0;
-    background-color: aquamarine;
-  }
+	padding-bottom: 80px;
+}

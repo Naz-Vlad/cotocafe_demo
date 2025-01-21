@@ -6,11 +6,11 @@ import "./style.css";
  function PageWrpapeer() {
 	return (
 	  <div className="App">
-        <Header/>
-		<main className="page-wrapper__main">
-			<MainPage/>
-		</main>
-		<Footer/>
+      <Header/>
+			<main className="page-wrapper__main">
+				<MainPage/>
+			</main>
+		  <Footer/>
 	  </div>
 	);
   }
