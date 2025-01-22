@@ -1,11 +1,7 @@
 import PageWrpapeer from "../page-wrapper/page-wrapper";
 import "./style.css"
-
+import starList from "../../mocks/starList";
 
 export default function App() {
-	return (
-	  <div className="App">
-        <PageWrpapeer/>
-	  </div>
-	);
+	return <PageWrpapeer stars = {starList}/>
   }
