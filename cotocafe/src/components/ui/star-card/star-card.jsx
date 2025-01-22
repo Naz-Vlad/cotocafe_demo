@@ -6,10 +6,10 @@ function StarCard() {
 		<article className="star-card">
 			<figure className="star-card__figure">
 				<img className="star-card__image"
-        src="/src/assets/cat_1.png"
-        width={313}
-        height={313}
-        alt="изображение кота"
+				  src="/src/assets/cat_1.png"
+          width={313}
+          height={313}
+          alt="изображение кота"
 				/>
 				 <span className="star-card__icon">Ласковый</span>
 			</figure>
