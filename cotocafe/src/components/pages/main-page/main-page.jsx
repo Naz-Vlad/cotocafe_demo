@@ -1,11 +1,11 @@
 import About from "/src/components/blocks/about/about";
 import StarsList from "../../blocks/stars-list/stars-list";
 
-function MainPage() {
+function MainPage({ stars }) {
   return (
 	  <div>
 		  <About/>
-			<StarsList/>
+			<StarsList stars={stars}/>
 	  </div>
 	)
 }
