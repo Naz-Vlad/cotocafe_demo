@@ -1,12 +1,12 @@
 import About from "/src/components/blocks/about/about";
 import StarsList from "../../blocks/stars-list/stars-list";
 
-function MainPage({ stars }) {
+function MainPage({ stars }) { {/*функция создания глав. страницы c карт.*/}
   return (
-	  <div>
-		  <About/>
-			<StarsList stars={stars}/>
-	  </div>
+	  <>
+		  <About/>                  {/* компанент блока <section clacc="about">*/}
+			<StarsList stars={stars}/>{/*комп. блока <section clacc="star-list">*/}
+	  </>
 	)
 }
 
