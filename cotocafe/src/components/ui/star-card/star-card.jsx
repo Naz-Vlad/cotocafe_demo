@@ -1,22 +1,25 @@
 import Title, {TitleSize} from "../title/title";
+import StarIcon from "../star-icon/star-icon";
 import "./style.css"
 
-function StarCard() {
+
+function StarCard({name, about, feature, image}) { // ф-ия карточки кота
 	 return (
 		<article className="star-card">
 			<figure className="star-card__figure">
 				<img className="star-card__image"
-				  src="/src/assets/cat_1.png"
+				  src={image}
           width={313}
           height={313}
           alt="изображение кота"
 				/>
-				 <span className="star-card__icon">Ласковый</span>
+        <StarIcon className="star-card__icon" feature={feature} />
 			</figure>
-			<Title size={TitleSize.SMALL}>Кошка Сью</Title>
-			<p className="star-card__text"> Эта юная красавица очень общительная и ласковая<br/> уже с первого дня, как
-			приехала в кафе.
-			</p>
+			<Title size={TitleSize.SMALL}>{name}</Title>
+			<p
+        className="star-card__text"
+        dangerouslySetInnerHTML={{ __html: about }}
+      />
 		</article>
 	 )
 }
