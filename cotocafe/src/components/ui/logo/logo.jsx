@@ -1,4 +1,4 @@
-import logo from "/src/assets/logo.svg";
+import logo from '/src/assets/logo.svg'
 import "./style.css";
 
 
@@ -11,4 +11,4 @@ function Logo() {
 	)
 }
 
-export default Logo
+export default Logo;

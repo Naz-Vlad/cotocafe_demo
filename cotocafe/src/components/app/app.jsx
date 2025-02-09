@@ -1,4 +1,4 @@
-//app — компонент приложения.
+//App — компонент приложения.
 
 import PageWrpapeer from "../layout/page-wrpapeer/page-wrpapeer";//гл. обертка
 import "./style.css"
