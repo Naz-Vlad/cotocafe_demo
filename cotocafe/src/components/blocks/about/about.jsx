@@ -5,7 +5,7 @@ function About() {
 	return (
 		<section className="about">
 			<div className="about__wrapper">
-				<Title size={TitleSize.BIG}>Первое в России котокафе</Title>
+				<Title size={TitleSize.BIG}>России котокафе</Title>
 				<p className="about__text">
 					Крупнейшее котокафе России, в котором живёт 50 кошек и котов, и каждыйиз них ищет новый дом.
 					Животных можно гладить, фотографировать, играть с ними.
