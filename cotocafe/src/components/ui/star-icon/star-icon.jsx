@@ -5,7 +5,7 @@ export const CatFeature = { // объект для иконок
   SOFT: "soft"    //  КЛЮЧ: значение ласковый
 };
 
-function StarIcon({ className = "", feature }) { // ф-ия создания компанента иконки
+function StarIcon({ className = "", feature }) { // ф-ия создания компанента иконки(Ласковый, Новый)
 	let options;
 
   switch (feature) {
