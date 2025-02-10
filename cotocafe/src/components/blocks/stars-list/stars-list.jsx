@@ -17,7 +17,7 @@ function StarsList({ stars }) { // создаем компанент со спи
 					    </li>
 				    ))}
 			    </ul>
-					<Button minWidth={353}>Купить билет</Button>
+					<Button minWidth={353} link="/buy">Купить билет</Button> {/*добавили в атрибуты кнопки мин-ширины и ссылку*/}
 				</>
 		  ) : null}
 		</section>
